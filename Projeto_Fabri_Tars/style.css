@@ -7,6 +7,7 @@
 
 body{
     background-image: url(imgs/Icons/tela\ fundo.png);
+    overflow: hidden;
 }
 header{
     width: 100vw;
@@ -50,23 +51,118 @@ nav a {
 
 
 .login {
-    width: 20%;
+    width: 20%;     
     height: 100px;
 
 }
 
 .login input{
     margin-top: 3.5rem;
-    padding: 1rem 3.5em;
+    
     background: rgb(190, 28,65);
     border: 1px solid rgb(190, 28,65);
+    border-radius: 2em;
+    color: #fff;
+    font-size: 20px;
+
+
+    background-image: url(imgs/quadrados/Voltar.png);
+    background-position: left;
+    background-position: 15px;
+    background-size: 40px ;
+    background-repeat: no-repeat;
+    
+}
+
+.logintxt{
+    
+    margin-left: 20px;
+    align-items: end;
+
+}
+
+
+main{
+    
+    display: flex;
+    width: 100vw;
+    height: 102vh;
+    background-image: url(imgs/Icons/bg.png);
+    background-size: cover;
+    background-position: center bottom 5rem;
+}
+
+.esquerda {
+
+    width: 40%;
+    height: 500px;
+    margin-top: 20px;
+
+}
+
+.inputs{
+    padding-left: 60px;
+    padding-top: 30px;
+
+}
+.input1{
+    margin-top: 3.5rem;
+    padding: 1rem 3.5rem;
+    background: rebeccapurple;
+    border: 1px solid rebeccapurple;
     border-radius: 2em;
     text-align: center;
     color: #fff;
 
 }
 
+.input2{
+    margin-top: 3.5rem;
+    padding: 1rem 3.5rem;
+    background: rgb(190, 28,65);
+    border: 1px solid rgb(190, 28,65);
+    border-radius: 2em;
+    text-align: center;
+    color: #fff;
+}
 
-main{
-    padding-top: 3rem;
+
+.direita{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 500px;
+}
+
+span{
+    padding-right: 20rem;
+    font-style: italic;
+}
+
+section p{
+    margin-bottom: 1rem;
+}
+
+article h1{
+    color: #fff;
+    font-size: 2.5rem;
+   
+    text-align-last: left;
+}
+
+.meio {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.meio img {
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
 }
