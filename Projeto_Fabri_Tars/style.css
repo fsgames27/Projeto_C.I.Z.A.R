@@ -8,6 +8,7 @@
 body{
     background-image: url(imgs/Icons/tela\ fundo.png);
     overflow: hidden;
+    
 }
 header{
     width: 100vw;
@@ -19,23 +20,27 @@ header{
 
 .logo{
     width: 20%;
-    height: 100px;
-    
+    height: 100px;   
 }
 
 .logo img{
-    padding-top: 2.5rem;
-    padding-left: 2rem;
-    width: 12rem;
-    height: 6rem;
-    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 70px;
+    padding-left: 4.3rem;
+    margin: 20px;
+    
+
+
+
+    width: 235px;
+    height: 200px;
 }
 nav{
     width: 60%;
     height: 100px;
     justify-content: center;
     padding-top: 4rem;
-    padding-left: 2rem;
+    padding-left: 5.5rem;
     padding-right: 3rem;
 
     
@@ -46,13 +51,21 @@ nav a {
     text-decoration: none;
     color: antiquewhite;
     text-align: center;
-    font-size: 2em;
+    font-size: 2.24em;
+    
 }
 
+nav a:hover{
+    text-decoration: 2rem dotted #fff;
+    transition: 120ms ease-in;
+    text-shadow: -4px -3px #ffffff;
+    
+}
 
 .login {
     width: 20%;     
     height: 100px;
+    background: aq;
 
 }
 
@@ -64,6 +77,7 @@ nav a {
     border-radius: 2em;
     color: #fff;
     font-size: 20px;
+    padding: 20px 60px;
 
 
     background-image: url(imgs/quadrados/Voltar.png);
@@ -90,6 +104,7 @@ main{
     background-image: url(imgs/Icons/bg.png);
     background-size: cover;
     background-position: center bottom 5rem;
+    padding-top: 6.5rem;
 }
 
 .esquerda {
@@ -97,12 +112,20 @@ main{
     width: 40%;
     height: 500px;
     margin-top: 20px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+
 
 }
 
 .inputs{
-    padding-left: 60px;
-    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 70px;
+    margin-right: 50px;
+  
+
+    
+
 
 }
 .input1{
@@ -133,7 +156,22 @@ main{
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
-    height: 500px;
+    height: 660px;
+    padding-right: 1rem;
+    padding-bottom: 20px;
+
+}
+
+.icons a{
+    
+    width: 35px;
+    height: 35px;
+    display: flex;
+    position: relative;
+    right: 1.5rem;
+    float: left;
+
+
 }
 
 span{
