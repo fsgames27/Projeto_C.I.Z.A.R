@@ -264,6 +264,26 @@ article h1{
     bottom: 7rem;
 }
 
+.meio::before {
+   content: url(imgs/Pessoasp/Pessoas4k.png);
+    display: none; /* Inicialmente oculto */
+}
 
+.meio:hover::before {
+    display: inline; /* Exibir ao passar o mouse sobre o elemento */
+    position: absolute;
+    z-index: 10;
+    bottom:0;
+  
+}
+
+.seu-elemento::after {
+    content: "Depois";
+    display: none; /* Inicialmente oculto */
+}
+
+.seu-elemento:hover::after {
+    display: inline; /* Exibir ao passar o mouse sobre o elemento */
+}
 
 
